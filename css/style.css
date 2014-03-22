@@ -132,12 +132,15 @@ div#help ul { margin-left: 10px; }
 /*== mobile ==*/
 @media screen and (max-width: 960px) {
     div#game-options { left: -30px; }
-    #clock { width: 50px; margin-left: }
-    #SHOW_EDGE, #SHOW_MIDDLE, #SHOW_ALL { display: none; }
+    #clock { width: 50px; }
+    #SHOW_EDGE { display: none; } 
+    #SHOW_MIDDLE { display: none; }
+    #SHOW_ALL { display: none; }
 }
 
 @media screen and (max-width: 479px) {
-    #SHOW_HELP, #clock { display: none; }
+    #SHOW_HELP { display: none; }
+    #clock { display: block; }
     #JIGSAW_SHUFFLE { margin-left: 15px; }
     #SHOW_PREVIEW { margin-right: 10px; }
 }
